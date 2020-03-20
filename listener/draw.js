@@ -1,0 +1,1 @@
+canvas.addEventListener('mousemove', draw);

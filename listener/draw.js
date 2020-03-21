@@ -1,8 +1,7 @@
-const canvas = document.querySelector('#draw');
-let isDrawing = false;
-let lastX = 0;
-let lastY = 0;
 canvas.addEventListener('mousedown', (e) => {
-    isDrawing = true;
-    [lastX, lastY] = [e.offsetX, e.offsetY];
+    isDrawing = true,
+        [lastX, lastY] = [e.offsetX, e.offsetY]; //this will update our lastX and lastY
 });
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', () => isDrawing = false);
+canvas.addEventListener('mouseout', () => isDrawing = false);

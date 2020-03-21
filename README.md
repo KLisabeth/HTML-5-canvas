@@ -15,4 +15,4 @@
 
 > This code was well organized with `development-strategy`!
 
-> Please check it out by the following link [projects](https://klisabeth.github.io/HTML-5-canvas)
+> Please check it out by the following link [projects](https://nickmarinade.github.io/HTML-5-canvas/)
